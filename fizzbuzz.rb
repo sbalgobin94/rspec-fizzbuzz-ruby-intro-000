@@ -6,11 +6,11 @@ def fizzbuzz(int)
     "Fizz" # Go fizz
   end
 
-elsif int % 5 == 0
+  if int % 5 == 0
     "Buzz"
   end
 
-elsif int % 3 == 0 && int % 5 == 0
+  if int % 3 == 0 && int % 5 == 0
     "FizzBuzz"
   end
 end# Don't forget! This file needs to be 'required' in its spec file
